@@ -10,7 +10,7 @@ function start(route, handle) {
     }
 
     http.createServer(onRequest).listen(8888);
-    console.log("Server has started.");
+    console.log("Server has started at 8888 port.");
 }
 
 exports.start = start;
