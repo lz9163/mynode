@@ -1,3 +1,5 @@
+//定义router跳转对应函数，调用启动http服务的函数
+
 var server = require("./server");
 var router = require("./router");
 var requestHandlers = require("./requestHandlers");

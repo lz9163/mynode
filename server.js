@@ -1,3 +1,5 @@
+//创建http服务器，并将请求信息送给rotuer
+
 var http = require("http");
 var url = require("url");
 

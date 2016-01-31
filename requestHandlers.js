@@ -1,3 +1,5 @@
+//接收处理router跳转过来的信息
+
 var querystring = require("querystring"),
     fs = require("fs"),
     formidable = require("formidable");
@@ -14,6 +16,7 @@ function start(response) {
       '<form action="/upload" enctype="multipart/form-data" method="post">' +
       ' <input type="file" name="upload_file">' +
       ' <input type="submit" />' +
+      ' <input type="button" value="Show picture">' +
       '</form>' +
       '</body>' +
       '</html>';
