@@ -13,11 +13,16 @@ function start(response) {
       'charset=UTF-8" />' +
       '</head>' +
       '<body>' +
+
+      '<form action="/show" enctype="multipart/form-data" method="post">' +
+      ' <input type="button" value="Show picture">' +
+      '</form>' +
+
       '<form action="/upload" enctype="multipart/form-data" method="post">' +
       ' <input type="file" name="upload_file">' +
       ' <input type="submit" />' +
-      ' <input type="button" value="Show picture">' +
       '</form>' +
+
       '</body>' +
       '</html>';
 
