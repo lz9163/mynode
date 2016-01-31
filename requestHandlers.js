@@ -14,8 +14,8 @@ function start(response) {
       '</head>' +
       '<body>' +
 
-      '<form action="/show" enctype="multipart/form-data" method="post">' +
-      ' <input type="button" value="Show picture">' +
+      '<form action="/show" method="get">' +
+      ' <input type="submit" value="Show picture">' +
       '</form>' +
 
       '<form action="/upload" enctype="multipart/form-data" method="post">' +
