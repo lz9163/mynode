@@ -8,13 +8,13 @@ function start(response) {
     var body = '<html>' +
       '<head>' +
       '<meta http-equiv="Content-Type" content="text/html; ' +
-      'charset=GB2313" />' +
+      'charset=UTF-8" />' +
       '</head>' +
       '<body>' +
       '<form action="/upload" enctype="multipart/form-data" ' +
       'method="post">' +
       '<input type="file" name="upload" multiple="multiple">' +
-      '<input type="submit" value="上传文件" />' +
+      '<input type="submit" value="Upload file" />' +
       '</form>' +
       '</body>' +
       '</html>';
