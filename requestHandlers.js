@@ -12,7 +12,7 @@ function start(response) {
       '</head>' +
       '<body>' +
       '<form action="/upload" enctype="multipart/form-data" method="post">' +
-      ' <input type="file" name="upload">' +
+      ' <input type="file" name="upload_file">' +
       ' <input type="submit" />' +
       '</form>' +
       '</body>' +
@@ -30,7 +30,7 @@ function upload(response, request) {
     console.log("about to parse");
     form.parse(request, function (error, fields, files) {
         console.log("parsing done");
-        fs.renameSync(files.upload.path, "/tmp/test.png");
+        fs.renameSync(files.upload_file.path, "/tmp/test.png");
         response.writeHead(200, { "Content-Type": "text/html" });
         response.write("received image:<br/>");
         response.write("<img src='/show' />");
