@@ -8,7 +8,7 @@ function start(response) {
     var body = '<html>' +
       '<head>' +
       '<meta http-equiv="Content-Type" content="text/html; ' +
-      'charset=UTF-8" />' +
+      'charset=GB2313" />' +
       '</head>' +
       '<body>' +
       '<form action="/upload" enctype="multipart/form-data" ' +
