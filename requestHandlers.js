@@ -11,10 +11,9 @@ function start(response) {
       'charset=UTF-8" />' +
       '</head>' +
       '<body>' +
-      '<form action="/upload" enctype="multipart/form-data" ' +
-      'method="post">' +
-      '<input type="file" name="upload" multiple="multiple">' +
-      '<input type="submit" value="Upload file" />' +
+      '<form action="/upload" enctype="multipart/form-data" method="post">' +
+      ' <input type="file">' +
+      ' <input type="submit" />' +
       '</form>' +
       '</body>' +
       '</html>';
