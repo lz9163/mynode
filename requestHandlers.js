@@ -36,7 +36,7 @@ function upload(response, request) {
 
     var form = new formidable.IncomingForm();
 
-    //form.uploadDir = 'tmp';
+    //form.uploadDir = 'tmp';   //在本地win7上运行时需要
 
     console.log("about to parse");
     form.parse(request, function (error, fields, files) {
